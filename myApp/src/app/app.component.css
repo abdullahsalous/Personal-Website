@@ -1,3 +1,13 @@
 .name{
     font-size: xx-large;
+    font-weight: 500;
+    overflow: auto;
+    margin-top: 30px;
+}
+
+.picture{
+    width: 500px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 60px;
 }
