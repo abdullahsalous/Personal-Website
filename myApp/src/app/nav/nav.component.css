@@ -9,3 +9,23 @@
     background: white;
     box-shadow: 0px 0px 30px rgba(255, 255, 255, 1); /* Box shadow properties */
 }
+
+.selected{
+    border: 2px solid #000;
+    border-radius: 25px;
+    height: 50px;
+    width: 90px;
+}
+
+.pill{
+    border-radius: 25px;
+    height: 43px;
+    width: 84px;
+    background-image: linear-gradient(red, green);
+    z-index: 9999;
+}
+
+/* https://alvarotrigo.com/blog/toggle-switch-css/ for slider */
+.pill:active{
+    translate: 100px;
+}
